@@ -1,0 +1,40 @@
+# Ignore built binaries and temporary build files
+Intermediate/
+Binaries/
+Saved/
+DerivedDataCache/
+Platforms/
+Build/
+
+# Plugins
+# Uncomment the line below to ignore the plugin directory (binaries) - alternate the comments below
+Plugins/ 
+#Plugins/*/Binaries/*  
+#Plugins/*/Intermediate/* 
+
+# Ignore root Visual Studio solution files. 
+# We do check in some sln files in subdirectories, so only ignore the ones found in the root.
+*.sln
+
+# Ignore Rider settings
+.idea/
+
+# Ignore VS files 
+.vs/
+.vsconfig
+
+# Ignore Xcode files
+*.xcworkspace/
+
+# Ignore P4config file
+.p4config
+
+
+# Mac files
+__MACOSX/
+*.DS_Store
+
+# Perforce
+.p4ignore
+.p4config
+.p4config.example
